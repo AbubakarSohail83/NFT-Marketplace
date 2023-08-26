@@ -120,6 +120,8 @@
   background-color: #3b3b3b;
   padding: 20px;
   margin-bottom: 4%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .rounded-bottom {
@@ -137,7 +139,7 @@
 
 .frame-heading-para {
   font-size: 22px;
-  font-weight: 600px;
+  font-weight: 600;
   margin: 0;
   padding: 0;
 }
@@ -252,12 +254,12 @@
 
 .superscript-img{
   position: absolute;
-  top:10px;
-  left:-5%;
+  left: -30px;
   background-color: #2B2B2B;
   width: 30px;
   height: 30px;
   border-radius: 20px;
+  text-align: center;
 }
 
 .top-artists-desc{
@@ -273,16 +275,15 @@
   color: #ffffff;
   padding:  20px 30px 25px 30px;
   width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .para-heading-with-padding p{
   text-align: start;
 }
 
-.custom-card{
-  border-radius: 20px ;
-  overflow: hidden;
-}
+
 
 .custom-card-img{
   width: 100%;
@@ -488,6 +489,17 @@ font-weight: 700;
   font-weight: 400;
 }
 @media screen and (max-width: 991px) {
+
+  .superscript-img{
+    position: absolute;
+    top:0px;
+    left: -7px;
+    background-color: #2B2B2B;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+  }
   .custom-card-img-2{
     width: 160px;
     height: 160px;
