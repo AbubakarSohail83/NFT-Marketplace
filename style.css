@@ -504,6 +504,11 @@ font-weight: 700;
   flex-direction: row;
 }
 
+.email-subscribe-div-2{
+  display:flex;
+  flex-direction: row;
+}
+
 
 .weekly-digest-input-field
 {
@@ -519,14 +524,98 @@ font-weight: 700;
   height:60px;
 }
 
+.weekly-digest-input-field-2
+{
+  border-radius: 20px;
+  padding: 16px 0px 16px 20px;
+  position:relative;
+}
+
+
+.weekly-digest-subscribe-button-2{
+  position:absolute;
+  left: 44%;
+  height:60px;
+}
+
+
 
 .weekly-digest-text-input{
   font-size: 16px;
   font-weight: 400;
   font-family: 'Work Sans';
 }
+
+.about{
+  display:flex;
+  flex-direction: column;
+}
+
+.explore{
+  display: flex;
+  flex-direction: column;
+}
+
+.digest{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section{
+  background-color: #3b3b3b;
+  padding-top: 40px;
+  padding-bottom: 40px ;
+}
+
+.brand-name-footer{
+  font-family: 'Work Sans';
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.footer-nft-heading{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-text{
+  color: #CCCCCC;
+  font-size: 16px;
+  font-weight: 400;
+}
+.logos-bar{
+  display:flex;
+  flex-direction: row;
+}
+
+.text-12{
+  font-size: 12px;
+  font-weight: 400;
+  color: #CCCCCC;
+}
+
+.copyright-section{
+  border-top: solid 1px #858584;
+  margin: 0%;
+  padding: 2% 0 0 0;
+}
+
 @media screen and (max-width: 991px) {
 
+
+  .weekly-digest-input-field-2
+  {
+    border-radius: 20px;
+    padding: 16px 0px 16px 20px;
+    position:relative;
+  }
+
+
+  .weekly-digest-subscribe-button-2{
+    position:absolute;
+    left: 32%;
+    height:60px;
+  }
 
   .email-subscribe-div{
     display: flex;
@@ -662,7 +751,23 @@ font-weight: 700;
 
 
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 765px) {
+
+  .email-subscribe-div-2{
+    display: flex;
+    flex-direction: column;
+  }
+  .weekly-digest-input-field-2
+  {
+    border-radius: 20px;
+    position: static;
+    padding: 16px 0px 16px 20px;
+  }
+
+
+  .weekly-digest-subscribe-button-2{
+    position: static;
+  }
 
 
   .weekly-digest-row{
