@@ -302,6 +302,8 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .btn-case {
@@ -339,12 +341,15 @@
 
 .magic-mushroom-section{
   background-image: url('./static/nftback.png');
-  background-size: 100% 640px;
+  background-size: 100% ;
   background-repeat: no-repeat;
   padding-top: 30%;
   padding-bottom:1%;
 }
 
+.main-frame{
+  margin-bottom: 20px;
+}
 
 
 .mushroom-details{
@@ -488,8 +493,93 @@ font-weight: 700;
   font-size: 22px ;
   font-weight: 400;
 }
+
+
+.img-fluid-2{
+  height: auto;
+}
+
+.email-subscribe-div{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.weekly-digest-input-field
+{
+  border-radius: 20px;
+  padding: 16px 0px 16px 20px;
+  position:relative;
+}
+
+
+.weekly-digest-subscribe-button{
+  position:absolute;
+  left: 44%;
+  height:60px;
+}
+
+
+.weekly-digest-text-input{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Work Sans';
+}
 @media screen and (max-width: 991px) {
 
+
+  .email-subscribe-div{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .weekly-digest-input-field
+  {
+    border-radius: 20px;
+    position: static;
+    padding: 16px 0px 16px 20px;
+  }
+
+
+  .weekly-digest-subscribe-button{
+    position: static;
+  }
+
+
+
+  .email-subscribe-div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .weekly-digest-row{
+    padding:40px 30px 40px 30px;
+  }
+
+  .weekly-digest-heading{
+    font-size: 28px ;
+    font-weight: 600;
+  }
+  .weekly-digest-text{
+    font-size: 16px ;
+    font-weight: 400;
+  }
+
+
+  .img-fluid-2{
+    height: auto;
+    width: 100%;
+  }
+
+
+.magic-mushroom-section{
+  background-image: url('./static/nftback.png');
+  background-size: 100% 640px ;
+  background-repeat: no-repeat;
+  padding-top: 30%;
+  padding-bottom:1%;
+}
   .superscript-img{
     position: absolute;
     top:0px;
@@ -573,6 +663,17 @@ font-weight: 700;
 
 
 @media screen and (max-width: 770px) {
+
+
+  .weekly-digest-row{
+    padding:auto;
+    background-color: inherit;
+  }
+
+  .img-fluid-2{
+    height: auto;
+    width:100%;
+  }
 
   .custom-card-2{
     display: flex;
