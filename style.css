@@ -397,13 +397,14 @@
 .magic-mushroom-frame {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+
 }
 
 .timer-div {
   background-color: #3B3B3B80;
   padding: 30px;
   border-radius: 20px;
+  align-self: flex-end;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -483,10 +484,16 @@
   font-size: 22px;
   font-weight: 600;
 }
+.heading-22-b {
+  font-size: 22px;
+  font-weight: 600;
+}
+
 
 .text-16 {
   font-size: 16px;
   font-weight: 400;
+
 }
 
 .weekly-digest-heading {
@@ -546,7 +553,7 @@
 
 .weekly-digest-subscribe-button-2 {
   position: absolute;
-  left: 44%;
+  left: 60%;
   height: 60px;
 }
 
@@ -605,13 +612,24 @@
   color: #CCCCCC;
 }
 
+
+
 .copyright-section {
   border-top: solid 1px #858584;
   margin: 0%;
   padding: 2% 0 0 0;
 }
 
+.how-to-card .custom-card-2{
+  height: 100%;
+}
+
 @media screen and (max-width: 991px) {
+
+  .bottom-div-2 .text-16{
+    font-size: 12px;
+    font-weight: 400;
+  }
 
   .bold-text{
     font-weight: 600;
@@ -696,6 +714,9 @@
     font-size: 16px;
     font-weight: 400;
   }
+  .heading-22-b {
+    font-size: 16px;
+  }
 
   .text-16 {
     font-size: 12;
@@ -768,6 +789,12 @@
 }
 
 @media screen and (max-width: 765px) {
+
+
+  .how-to-card .custom-card-2{
+    height: auto;
+  }
+
 
   .email-subscribe-div-2 {
     display: flex;
@@ -872,6 +899,9 @@
 }
 
 @media screen and (max-width: 834px) {
+  .btn-img {
+    margin-right: 1%;
+  }
   .trending-item-2 {
     display: none;
   }
@@ -952,7 +982,7 @@
   }
 
   .btn-img {
-    margin-right: 5%;
+    margin-right: 1%;
   }
 
   .highlighted-nft-mobile-view {
