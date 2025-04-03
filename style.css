@@ -1,0 +1,962 @@
+.main {
+  background-color: #2b2b2b;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Work Sans";
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-cust {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px 20px 50px;
+  font-size: 16px;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  margin-right: 3%;
+}
+
+.brand-name {
+  display: inline-block;
+}
+
+.collapse-able-div {
+  justify-content: end;
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.btn-menu {
+  background-color: inherit;
+  color: #ffffff;
+  border: none;
+  padding: 0px 20px 0px 20px;
+}
+
+.purple-btn {
+  background-color: #a259ff;
+  border: solid #a259ff 0.1px;
+  color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 30px 10px 30px;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.btn-text {
+  margin: 0;
+}
+
+.btn-img {
+  margin-right: 10%;
+}
+
+.container {
+  margin-bottom: 5%;
+}
+
+.highlighted-nft-mobile-view {
+  display: none;
+}
+
+.major-heading {
+  font-size: 67px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+.sub-text {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.sub-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 23.99px;
+}
+
+.sub-menu-item {
+  width: fit-content;
+  white-space: nowrap;
+}
+
+.prominent-btn-text {
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.highlighted-nft {
+  display: flex;
+  flex-direction: column;
+}
+
+.highlighted-nft-sub-frame {
+  background-color: #3b3b3b;
+  padding: 20px;
+  margin-bottom: 4%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.rounded-bottom {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.sub-frame-bottom-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.frame-heading-para {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.anima-kid-side-img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.trending-collection-heading {
+  font-weight: 600;
+  font-size: 38px;
+  padding: 0;
+  margin: 0;
+}
+
+.main-trending-img {
+  width: 330px;
+  height: 330px;
+  margin-bottom: 3%;
+}
+
+.trending-sub-img {
+  width: 30%;
+  height: 100px;
+  margin-right: auto;
+}
+
+.sub-img-tray {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.black-btn {
+  background-color: inherit;
+  border: solid #a259ff 2px;
+  justify-content: end;
+  box-sizing: border-box;
+}
+
+.top-artists-headline {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-heading-button-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-creator-bottom-btn {
+  display: none;
+}
+
+.para-heading-22px {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0%;
+  text-align: center;
+}
+
+.top-artists-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.artist-card {
+  border-radius: 20px;
+  background-color: #3b3b3b;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description-card {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 5px;
+}
+
+.para-sub-text-light {
+  color: #858584;
+}
+
+.para-sub-text-space-mono {
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.artist-main-img {
+  height: 120px;
+  width: 120px;
+  margin: 0;
+}
+
+.top-artist-img {
+  position: relative;
+  display: inline-block;
+}
+
+.superscript-img {
+  position: absolute;
+  left: -30px;
+  background-color: #2b2b2b;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.top-artists-desc {
+  display: flex;
+  flex-direction: column;
+  /* Display children in a column */
+  justify-content: center;
+  /* Center content vertically */
+}
+
+.para-heading-with-padding {
+  font-size: 22px;
+  font-weight: 600;
+  background-color: #3b3b3b;
+  color: #ffffff;
+  padding: 20px 30px 25px 30px;
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  white-space: nowrap;
+  padding-left: 10%;
+}
+
+.para-heading-with-padding p {
+  text-align: start;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+.custom-card-img {
+  width: 100%;
+}
+
+.category-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom-div {
+  font-size: 22px;
+  font-weight: 600;
+  background-color: #3b3b3b;
+  color: #ffffff;
+  padding: 20px 30px 25px 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.btn-case {
+  display: none;
+}
+
+.bottom-div .highlighted-nft-sub-frame {
+  padding: 0;
+}
+
+.price-bid-text {
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.price-bid-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Space Mono";
+  font-size: 12px;
+  font-weight: 400;
+  color: #858584;
+}
+
+.price-bid-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.magic-mushroom-section {
+  background-image: url("./static/nftback.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 30%;
+  padding-bottom: 1%;
+}
+
+.main-frame {
+  margin-bottom: 20px;
+}
+
+.mushroom-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mushroom-heading {
+  font-weight: 600;
+}
+
+.mushroom-details .sub-frame-bottom-div {
+  background-color: #3b3b3b;
+  width: fit-content;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+}
+
+.mushroom-white-btn-md-lg {
+  background-color: #ffffff;
+  color: #2b2b2b;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding: 22px 50px 22px 50px;
+  border-radius: 20px;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magic-mushroom-frame {
+  display: flex;
+  flex-direction: column;
+}
+
+.timer-div {
+  background-color: #3b3b3b80;
+  padding: 30px;
+  border-radius: 20px;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  width: fit-content;
+}
+
+.timer-div p {
+  padding: 0%;
+  margin: 0%;
+}
+
+.sub-text-12 {
+  font-size: 12px;
+  font-family: "Space Mono";
+}
+
+.timer {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  margin: 0%;
+}
+
+.timer-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.number {
+  font-family: "Space Mono";
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.mushroom-white-btn-sm-bottom {
+  display: none;
+}
+
+.custom-card-2 {
+  background-color: #3b3b3b;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-card-img-2 {
+  width: 250px;
+  height: 250px;
+}
+
+.bottom-div-2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 20px 30px 25px 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.heading-22 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.heading-22-b {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.text-16 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.weekly-digest-heading {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.weekly-digest-row {
+  background-color: #3b3b3b;
+  border-radius: 20px;
+}
+
+.weekly-digest-row {
+  padding: 60px 60px 60px 60px;
+}
+
+.weekly-digest-text {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.img-fluid-2 {
+  height: auto;
+}
+
+.email-subscribe-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.email-subscribe-div-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.weekly-digest-input-field {
+  border-radius: 20px;
+  padding: 16px 0px 16px 20px;
+  position: relative;
+}
+
+.weekly-digest-subscribe-button {
+  position: absolute;
+  left: 44%;
+  height: 60px;
+}
+
+.weekly-digest-input-field-2 {
+  border-radius: 20px;
+  padding: 16px 0px 16px 20px;
+  position: relative;
+}
+
+.weekly-digest-subscribe-button-2 {
+  position: absolute;
+  left: 60%;
+  height: 60px;
+}
+
+.weekly-digest-text-input {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Work Sans";
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.explore {
+  display: flex;
+  flex-direction: column;
+}
+
+.digest {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section {
+  background-color: #3b3b3b;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.brand-name-footer {
+  font-family: "Work Sans";
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.footer-nft-heading {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-text {
+  color: #cccccc;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.logos-bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-12 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.copyright-section {
+  border-top: solid 1px #858584;
+  margin: 0%;
+  padding: 2% 0 0 0;
+}
+
+.how-to-card .custom-card-2 {
+  height: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .bottom-div-2 .text-16 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .bold-text {
+    font-weight: 600;
+  }
+
+  .weekly-digest-input-field-2 {
+    border-radius: 20px;
+    padding: 16px 0px 16px 20px;
+    position: relative;
+  }
+
+  .weekly-digest-subscribe-button-2 {
+    position: absolute;
+    left: 32%;
+    height: 60px;
+  }
+
+  .email-subscribe-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .weekly-digest-input-field {
+    border-radius: 20px;
+    position: static;
+    padding: 16px 0px 16px 20px;
+  }
+
+  .weekly-digest-subscribe-button {
+    position: static;
+  }
+
+  .email-subscribe-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .weekly-digest-row {
+    padding: 40px 30px 40px 30px;
+  }
+
+  .weekly-digest-heading {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .weekly-digest-text {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .img-fluid-2 {
+    height: auto;
+    width: 100%;
+  }
+
+  .magic-mushroom-section {
+    background-image: url("./static/nftback.png");
+    background-size: 100% 640px;
+    background-repeat: no-repeat;
+    padding-top: 30%;
+    padding-bottom: 1%;
+  }
+
+  .superscript-img {
+    position: absolute;
+    top: 0px;
+    left: -7px;
+    background-color: #2b2b2b;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .custom-card-img-2 {
+    width: 160px;
+    height: 160px;
+  }
+
+  .heading-22 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .heading-22-b {
+    font-size: 16px;
+  }
+
+  .text-16 {
+    font-size: 12;
+    font-weight: 200;
+  }
+
+  .number {
+    font-family: "Space Mono";
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .discover-more-3 {
+    display: none;
+  }
+
+  .para-heading-with-padding {
+    font-size: 16px;
+  }
+
+  .artist-card-7-12 {
+    display: none;
+  }
+
+  .major-heading {
+    font-size: 38px;
+  }
+
+  .sub-text {
+    font-size: 16px;
+  }
+
+  .trending-collection-heading {
+    font-size: 28px;
+  }
+
+  .trending-item-3 {
+    display: none;
+  }
+
+  .artist-card {
+    border-radius: 20px;
+    background-color: #3b3b3b;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .artist-main-img {
+    height: 60px;
+    width: 60px;
+    margin: 0;
+  }
+
+  .top-artists-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .top-artists-desc .para-heading-22px {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0%;
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .how-to-card .custom-card-2 {
+    height: auto;
+  }
+
+  .email-subscribe-div-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .weekly-digest-input-field-2 {
+    border-radius: 20px;
+    position: static;
+    padding: 16px 0px 16px 20px;
+  }
+
+  .weekly-digest-subscribe-button-2 {
+    position: static;
+  }
+
+  .weekly-digest-row {
+    padding: auto;
+    background-color: inherit;
+  }
+
+  .img-fluid-2 {
+    height: auto;
+    width: 100%;
+  }
+
+  .custom-card-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .custom-card-img-2 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .mushroom-white-btn-sm-bottom {
+    background-color: #ffffff;
+    color: #2b2b2b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    padding: 22px 50px 22px 50px;
+    border-radius: 20px;
+    white-space: nowrap;
+    width: 100%;
+  }
+
+  .mushroom-white-btn-md-lg {
+    display: none;
+  }
+
+  .mushroom-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .magic-mushroom-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .timer-div {
+    width: 100%;
+    align-items: center;
+  }
+
+  .trending-item-2 {
+    justify-content: center;
+  }
+
+  .artist-card {
+    border-radius: 20px;
+    background-color: #3b3b3b;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .description-card {
+    flex-wrap: wrap;
+  }
+
+  .trending-item-2 {
+    display: none;
+  }
+
+  .main-trending-img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .trending-sub-img {
+    height: 85px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .btn-img {
+    margin-right: 1%;
+  }
+
+  .trending-item-3 {
+    display: none;
+  }
+
+  .logo {
+    width: 24px;
+    height: 24px;
+  }
+
+  .prominent-btn-text {
+    font-size: 22px;
+  }
+
+  .sub-menu-text {
+    font-size: 16px;
+  }
+
+  .highlighted-nft-img {
+    width: 330px;
+    height: 221px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .discover-more-3 {
+    display: block;
+  }
+
+  .btn-case {
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .artist-card-6 {
+    display: none;
+  }
+
+  .black-btn {
+    background-color: inherit;
+    border: solid #a259ff 2px;
+    justify-content: center;
+  }
+
+  .top-creator-bottom-btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .top-creator-side-btn {
+    display: none;
+  }
+
+  .trending-item-2 {
+    display: none;
+  }
+
+  .major-heading {
+    font-size: 28px;
+  }
+
+  .highlighted-nft {
+    display: none;
+  }
+
+  .purple-btn {
+    width: 100%;
+  }
+
+  .btn-img {
+    margin-right: 1%;
+  }
+
+  .highlighted-nft-mobile-view {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .highlighted-nft-img {
+    width: 100%;
+    height: auto;
+  }
+}
